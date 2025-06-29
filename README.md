@@ -28,7 +28,7 @@ login.html        → Login form page
 </ul>
 
 <h2>📷 Screenshots</h2>
-<img src="assets/n1.jpg" alt="Screenshot" width="400"/>
+<img src="assets/Screenshot 2025-06-29 144129.png" alt="Screenshot" width="400"/>
 
 <h2>✅ How to Use</h2>
 <ol>
