@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Login - Netflix</title>
+</head>
+<body>
+
+  <header class="head-login">
+    <div class="overlay">
+
+      <!-- Logo -->
+      <div class="head-container">
+        <div class="image-container">
+          <img src="assets/netflix-logo-png-2562.png" alt="Netflix Logo" />
+        </div>
+      </div>
+
+      <!-- Login Form Section -->
+      <section class="login-section">
+        <div class="login-container">
+          <form class="login-form">
+
+            <h1>Sign In</h1>
+
+            <!-- Email or Phone Input -->
+            <input 
+              type="text" 
+              id="email" 
+              name="email" 
+              placeholder="Email or mobile number" 
+              required 
+            />
+
+            <!-- Password Input -->
+            <input 
+              type="password" 
+              id="password" 
+              name="password" 
+              placeholder="Password" 
+              required 
+            />
+
+            <!-- Sign In Button -->
+            <button class="sign-button" type="submit">Sign In</button>
+
+            <h2>OR</h2>
+
+            <!-- Sign-in with code -->
+            <button class="code" type="button">Use a sign-in code</button>
+
+            <!-- Forgot Password -->
+            <div class="forgot-link">
+              <a href="#">Forgot password?</a>
+            </div>
+
+            <!-- Remember me -->
+            <div class="remember-me">
+              <label>
+                <input type="checkbox" name="remember" />
+                Remember me
+              </label>
+            </div>
+
+            <!-- Sign up -->
+            <div class="signup">
+              <p>New to Netflix? <a href="index.html">Sign up now.</a></p>
+            </div>
+
+            <!-- reCAPTCHA note -->
+            <small>
+              This page is protected by Google reCAPTCHA to ensure you're not a bot.
+              <br />
+              <span>
+                The information collected by Google reCAPTCHA is subject to the Google 
+                <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and 
+                <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a>.
+              </span>
+            </small>
+
+          </form>
+        </div>
+      </section>
+
+    </div>
+  </header>
+
+</body>
+</html>

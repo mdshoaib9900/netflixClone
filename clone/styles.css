@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: rgb(25, 24, 24);
+}
+
+.head {
+  height: 100vh;
+  background-image: url("https://singh-cp.github.io/netflix-landingpage/images/netflix-background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -10px;
+}
+
+.image-container img {
+  height: 50px;
+  width: 150px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn1 {
+  height: 2rem;
+  width: 5rem;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn2 {
+  height: 2rem;
+  width: 7rem;
+  background-color: rgb(24, 23, 23);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  margin: auto; 
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold ;
+  color: white;
+  
+}
+
+.hero-content p {
+  font-size: 0.7rem;
+  margin-bottom: 1.5rem;
+
+}
+.hero-content form {
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.hero-content input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 60%;
+  height: 50px;
+  border: none;
+  background-color: black;
+  border-radius: 5px 0 0 5px ;
+  border: 1px solid white;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.hero-content .btn {
+  height: 50px;
+  width: 30%;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.head-login {
+  height: 150vh;
+  background-image: url("https://singh-cp.github.io/netflix-landingpage/images/netflix-background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.login-section{
+    align-items: center;
+    text-align: center;
+    display: block;
+    height: 80%;
+    width: 2000px;
+    margin-left: 35%;
+    
+}
+.login-container{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 60px 68px 40px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 4px;
+}
+.login-form h1 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color:white;
+}
+.login-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 16px;
+  background-color: #333;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.login-form .sign-button,
+.login-form .code {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 16px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.login-form .code {
+  background-color: #444;
+}
+
+.login-form .forgot-link a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.login-form .remember-me {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
+.login-form .remember-me input {
+  margin-right: 6px;
+}
+
+.login-form .signup {
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+
+.login-form .signup a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-form small {
+  display: block;
+  margin-top: 20px;
+  font-size: 0.75rem;
+  color: #aaa;
+  line-height: 1.4;
+}
+
+.login-form small a {
+  color: #0071eb;
+  text-decoration: none;
+}
+.page{
+  background-color: red;
+  height: 120vh;
+  text-align: center;
+  display: flex;
+  border-radius: 50px 50px 0px 0px;
+  
+}
+
+.movies-container{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 50px 50px 0px 0px;
+  align-items:center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.movies{
+  background: linear-gradient(0,black,rgb(0, 0, 43));
+  height: 100%;
+  width: 100%;
+   border-radius: 50px 50px 0px 0px;
+   
+}
+.movies-img{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px; 
+}
+.movies-img h1{
+  color: white;
+  font-size: 1.5rem;
+
+  
+}
+.movies-img img{
+  width: 200px;
+  height: 300px;
+  margin: 30px;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  
+}
+.movies-img img:hover{
+    transform: scale(0.9);
+
+}
+.page2{
+  background-color: white;
+  height: 400px;
+  width: 100%;
+
+}
+.grid-container{
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(0,rgb(34, 28, 28),rgb(23, 23, 58));
+  border-radius: 10%;
+  margin-top: 15px;
+  margin: 15px;
+  text-align: left;
+}
+.grid-container #m{
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 1.7;
+}
+.grid-container p{
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #d8d3d3;
+}
+.movies-image{
+  height: 100vh;
+   background-color: black;
+   align-items: center;
+   text-align: start;
+   margin-top: 30px;
+}
+.grid-container-rect{
+  height: 80px;
+  width: 84%;
+  background-color:rgb(62, 59, 59);
+  margin-left: 120px;
+  margin: 20px;
+  margin-left: 120px;
+  cursor: pointer;
+
+}
+.movies-image #c{
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 120px;
+}
+.grid-container-rect #i {
+  color: white;
+  font-size: 1.4rem;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 1.7rem 1.5rem;
+}
+
+.grid-container-rect :hover {
+  background-color: #5f5c5c;
+}
+
+.netflix-footer {
+  background-color: black;
+  color: #757575;
+  padding: 40px 20px;
+  font-size: 0.9rem;
+  margin-top: 650px;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-top {
+  margin-bottom: 20px;
+}
+
+.footer-top a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color:white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-country {
+  font-size: 0.8rem;
+}
